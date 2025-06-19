@@ -1,5 +1,8 @@
 package com.alex.guzhenren;
 
+import com.alex.guzhenren.block.ModBlocks;
+import com.alex.guzhenren.item.ModCreativeModeTabs;
+import com.alex.guzhenren.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -26,7 +29,12 @@ public class Guzhenren {
     public Guzhenren(IEventBus modEventBus, ModContainer modContainer) {
 
         modEventBus.addListener(this::commonSetup);
+
         NeoForge.EVENT_BUS.register(this);
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

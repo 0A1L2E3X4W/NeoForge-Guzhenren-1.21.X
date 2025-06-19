@@ -1,0 +1,9 @@
+{
+  "block.guzhenren.primeval_stone_block": "元石块",
+  "block.guzhenren.primeval_stone_ore": "元石矿",
+  "item.guzhenren.aperture": "人窍",
+  "item.guzhenren.human_heart": "人心",
+  "item.guzhenren.primeval_stone": "元石",
+  "itemGroup.guzhenren.gu_material_tab": "蛊材类",
+  "tooltip.guzhenren.primeval_stone.tooltip": "回复真元"
+}

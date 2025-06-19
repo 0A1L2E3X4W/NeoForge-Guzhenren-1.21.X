@@ -1,0 +1,9 @@
+{
+  "block.guzhenren.primeval_stone_block": "Primeval Stone Block",
+  "block.guzhenren.primeval_stone_ore": "Primeval Stone Ore",
+  "item.guzhenren.aperture": "Aperture",
+  "item.guzhenren.human_heart": "Human Heart",
+  "item.guzhenren.primeval_stone": "Primeval Stone",
+  "itemGroup.guzhenren.gu_material_tab": "Gu Materials",
+  "tooltip.guzhenren.primeval_stone.tooltip": "regenerate primeval essence"
+}

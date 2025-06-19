@@ -1,6 +1,6 @@
 package com.alex.guzhenren.utils.enums;
 
-public enum ModTalent {
+public enum GuMasterTalent {
 
     A("guzhenren.talent.a"),
     B("guzhenren.talent.b"),
@@ -11,6 +11,6 @@ public enum ModTalent {
 
     private final String nameKey;
 
-    ModTalent(String key) { this.nameKey = key; }
+    GuMasterTalent(String key) { this.nameKey = key; }
     public String getNameKey() { return nameKey; }
 }

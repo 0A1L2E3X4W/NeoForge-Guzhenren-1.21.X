@@ -17,5 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.APERTURE.get());
         basicItem(ModItems.HUMAN_HEART.get());
         basicItem(ModItems.PRIMEVAL_STONE.get());
+
+        basicItem(ModItems.HOPE_GU.get());
     }
 }

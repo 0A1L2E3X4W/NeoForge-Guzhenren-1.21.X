@@ -11,6 +11,10 @@ public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Guzhenren.MOD_ID);
 
+    // ===== MORTAL GU =====
+    public static final DeferredItem<Item> HOPE_GU = ITEMS.register("hope", () -> new HopeGu(new Item.Properties()
+            .stacksTo(64)));
+
     // ===== GU MATERIALS =====
     public static final DeferredItem<Item> APERTURE = ITEMS.register("aperture", () -> new Item(new Item.Properties()
             .stacksTo(64)));

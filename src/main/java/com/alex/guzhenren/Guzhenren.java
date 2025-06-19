@@ -3,6 +3,7 @@ package com.alex.guzhenren;
 import com.alex.guzhenren.block.ModBlocks;
 import com.alex.guzhenren.item.ModCreativeModeTabs;
 import com.alex.guzhenren.item.ModItems;
+import com.alex.guzhenren.player.ModPlayer;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -34,6 +35,8 @@ public class Guzhenren {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModPlayer.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

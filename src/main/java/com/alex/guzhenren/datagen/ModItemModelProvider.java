@@ -14,10 +14,12 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // GU MATERIALS
         basicItem(ModItems.APERTURE.get());
         basicItem(ModItems.HUMAN_HEART.get());
         basicItem(ModItems.PRIMEVAL_STONE.get());
 
+        // MORTAL GU
         basicItem(ModItems.HOPE_GU.get());
     }
 }

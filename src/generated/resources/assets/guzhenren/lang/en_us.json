@@ -34,5 +34,12 @@
   "item.guzhenren.primeval_stone": "Primeval Stone",
   "itemGroup.guzhenren.gu_material_tab": "Gu Materials",
   "itemGroup.guzhenren.mortal_gu_tab": "Mortal Gu",
+  "key.category.guzhenren": "GUZHENREN Mod",
+  "key.guzhenren.open_player_gui": "Player Gui",
+  "screen.guzhenren.essence": "Essence",
+  "screen.guzhenren.extreme_physique": "Physique",
+  "screen.guzhenren.rank": "Rank",
+  "screen.guzhenren.talent": "Talent",
+  "screen.guzhenren.title": "GUI",
   "tooltip.guzhenren.primeval_stone.tooltip": "regenerate primeval essence"
 }

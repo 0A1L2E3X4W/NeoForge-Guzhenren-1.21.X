@@ -34,5 +34,12 @@
   "item.guzhenren.primeval_stone": "元石",
   "itemGroup.guzhenren.gu_material_tab": "蛊材类",
   "itemGroup.guzhenren.mortal_gu_tab": "凡蛊类",
+  "key.category.guzhenren": "蛊真人Mod",
+  "key.guzhenren.open_player_gui": "玩家菜单",
+  "screen.guzhenren.essence": "真元",
+  "screen.guzhenren.extreme_physique": "特殊体质",
+  "screen.guzhenren.rank": "修为",
+  "screen.guzhenren.talent": "天赋",
+  "screen.guzhenren.title": "GUI",
   "tooltip.guzhenren.primeval_stone.tooltip": "回复真元"
 }

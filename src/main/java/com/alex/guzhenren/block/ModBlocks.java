@@ -19,6 +19,7 @@ public class ModBlocks {
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Guzhenren.MOD_ID);
 
+    // ===== MOD BLOCKS =====
     public static final DeferredBlock<Block> PRIMEVAL_STONE_BLOCK = registerBlock("primeval_stone_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> PRIMEVAL_STONE_ORE = registerBlock("primeval_stone_ore",

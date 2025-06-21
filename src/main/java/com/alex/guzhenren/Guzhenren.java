@@ -1,6 +1,7 @@
 package com.alex.guzhenren;
 
 import com.alex.guzhenren.block.ModBlocks;
+import com.alex.guzhenren.event.ModKeyBindings;
 import com.alex.guzhenren.item.ModCreativeModeTabs;
 import com.alex.guzhenren.item.ModItems;
 import com.alex.guzhenren.player.ModPlayer;
@@ -32,10 +33,11 @@ public class Guzhenren {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        // REGISTER
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
         ModPlayer.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);

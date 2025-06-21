@@ -18,6 +18,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
 
+        // 9 to 1
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.PRIMEVAL_STONE_BLOCK.get())
                 .pattern("XXX")
                 .pattern("XXX")
@@ -25,6 +26,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('X', ModItems.PRIMEVAL_STONE.get())
                 .unlockedBy("has_bismuth", has(ModItems.PRIMEVAL_STONE)).save(recipeOutput);
 
+        // 1 to 9
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PRIMEVAL_STONE.get(), 9)
                 .requires(ModBlocks.PRIMEVAL_STONE_BLOCK)
                 .unlockedBy("has_bismuth_block", has(ModBlocks.PRIMEVAL_STONE_BLOCK)).save(recipeOutput);

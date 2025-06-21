@@ -2,6 +2,7 @@ package com.alex.guzhenren.datagen;
 
 import com.alex.guzhenren.Guzhenren;
 import com.alex.guzhenren.block.ModBlocks;
+import com.alex.guzhenren.event.ModKeyBindings;
 import com.alex.guzhenren.item.ModItems;
 import com.alex.guzhenren.utils.enums.GuMasterRank;
 import com.alex.guzhenren.utils.enums.GuMasterTalent;
@@ -44,6 +45,25 @@ public class ModLangEnUsProvider extends LanguageProvider {
 
         // GU MASTER TEN EXTREME PHYSIQUE
         addTenExtremePhysiqueTranslations();
+
+        // GU MASTER SCREEN
+        addScreenTranslations();
+
+        // KEY BINDINGS
+        addKeyBindingsTranslation();
+    }
+
+    private void addScreenTranslations() {
+        add("screen.guzhenren.title", "GUI");
+        add("screen.guzhenren.rank", "Rank");
+        add("screen.guzhenren.essence", "Essence");
+        add("screen.guzhenren.talent", "Talent");
+        add("screen.guzhenren.extreme_physique", "Physique");
+    }
+
+    private void addKeyBindingsTranslation() {
+        add(ModKeyBindings.KEY_CATEGORY_GUZHENREN, "GUZHENREN Mod");
+        add(ModKeyBindings.KEY_OPEN_PLAYER_GUI, "Player Gui");
     }
 
     private void addItemToolTipsTranslations() {

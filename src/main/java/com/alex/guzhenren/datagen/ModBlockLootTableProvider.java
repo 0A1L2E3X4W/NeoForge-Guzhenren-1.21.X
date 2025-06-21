@@ -27,8 +27,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        // DROP ITSELF
         dropSelf(ModBlocks.PRIMEVAL_STONE_BLOCK.get());
 
+        // DROP LIKE ORES
         add(ModBlocks.PRIMEVAL_STONE_ORE.get(), block -> createMultipleOreDrops(
                 ModBlocks.PRIMEVAL_STONE_ORE.get(), ModItems.PRIMEVAL_STONE.get(), 6, 12));
 

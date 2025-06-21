@@ -2,6 +2,7 @@ package com.alex.guzhenren.datagen;
 
 import com.alex.guzhenren.Guzhenren;
 import com.alex.guzhenren.block.ModBlocks;
+import com.alex.guzhenren.event.ModKeyBindings;
 import com.alex.guzhenren.item.ModItems;
 import com.alex.guzhenren.utils.enums.GuMasterRank;
 import com.alex.guzhenren.utils.enums.GuMasterTalent;
@@ -44,6 +45,25 @@ public class ModLangZhCnProvider extends LanguageProvider {
 
         // GU MASTER TEN EXTREME PHYSIQUE
         addTenExtremePhysiqueTranslations();
+
+        // GU MASTER SCREEN
+        addScreenTranslations();
+
+        // KEY BINDINGS
+        addKeyBindingsTranslation();
+    }
+
+    private void addScreenTranslations() {
+        add("screen.guzhenren.title", "GUI");
+        add("screen.guzhenren.rank", "修为");
+        add("screen.guzhenren.essence", "真元");
+        add("screen.guzhenren.talent", "天赋");
+        add("screen.guzhenren.extreme_physique", "特殊体质");
+    }
+
+    private void addKeyBindingsTranslation() {
+        add(ModKeyBindings.KEY_CATEGORY_GUZHENREN, "蛊真人Mod");
+        add(ModKeyBindings.KEY_OPEN_PLAYER_GUI, "玩家菜单");
     }
 
     private void addItemToolTipsTranslations() {
